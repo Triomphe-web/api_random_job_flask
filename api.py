@@ -20,7 +20,7 @@ def generate_jobs():
         jobs.append(job)
     return jobs
 
-@app.route('/jobs')
+@app.route('/')
 def get_jobs():
     jobs = generate_jobs()
     return jsonify(jobs)
