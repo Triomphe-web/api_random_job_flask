@@ -1,1 +1,1 @@
-pip install -r requirements.txt && python app.py
+Flask==2.0.2
